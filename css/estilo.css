@@ -20,6 +20,7 @@ header, .alert{
 .card-text{
     font-size: 14px;
 }
+
 .carrito{
     min-height: 80vh;
     max-width: 1000px;
@@ -98,4 +99,36 @@ header, .alert{
 .index__button:hover {
     color: white;
     background: #c3463a;
+}
+
+.footer__iconos{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.fab .footer__iconos{
+    line-height: 60px;
+}
+  
+.footer__iconos:hover{
+    color: #08A6A6;
+}
+  
+.footer__container-iconos{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer p{
+    padding-top: 20px;
 }
